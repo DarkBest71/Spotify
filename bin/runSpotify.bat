@@ -1,1 +1,1 @@
-start C:\"Users\andré\AppData\Roaming\Spotify\Spotify.exe"
+start C:\"Users\andrÃš\AppData\Roaming\Spotify\Spotify.exe"
