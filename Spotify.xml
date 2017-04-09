@@ -1,0 +1,24 @@
+	<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="ruleSpotify" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+    <rule id="ruleSpotify" scope="public">
+    <tag>out.action=new Object(); </tag>
+    <item>SARAH</item>
+    <one-of> 
+		<!-- Lancement d'ouverture de Spotify-->  
+	<item>lance Spotify<tag>out.action.val="runSpotify"</tag></item>
+	<item>ouvre Spotify<tag>out.action.val="runSpotify"</tag></item>
+	<item>mais Spotify<tag>out.action.val="runSpotify"</tag></item>
+	<item>affiche Spotify<tag>out.action.val="runSpotify"</tag></item>
+	<item>va sur Spotify<tag>out.action.val="runSpotify"</tag></item>
+	  
+	<!-- Lancement de fermeture de Spotify -->  
+	<item>ferme Spotify<tag>out.action.val="closerunvlc"</tag></item>
+	<item>ferme la fenêtre de Spotify<tag>out.action.val="closeSpotify"</tag></item>
+	<item>désactive Spotify<tag>out.action.val="closeSpotify"</tag></item>
+	<item>éteind Spotify<tag>out.action.val="closeSpotify"</tag></item>
+	<item>enlève Spotify<tag>out.action.val="closeSpotify"</tag></item>
+	
+	</one-of>
+    <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/Spotify";</tag>
+    </rule> 
+    </grammar>
+    <!-- Réalisation de Spotify part Avatar Rousseau (Dark Best), alias seb03000 -->

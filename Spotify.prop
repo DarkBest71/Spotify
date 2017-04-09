@@ -1,0 +1,9 @@
+{
+  "modules": { 
+    "Spotify": {
+      "description": "Actions pour le lancement de Spotify",
+      "version": "3.16",
+	  "Auteur": "Avatar Rousseau (Dark Best)"
+    }
+  }
+}
